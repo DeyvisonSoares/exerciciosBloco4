@@ -1,11 +1,16 @@
-let nota = 90;
+let sinal = "verde";
 
-if (nota >= 80) {
-    console.log("Parabéns, você foi aprovada(o)!");
-}
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera!");
-}
-else if (nota < 60) {
-    console.log("Você foi reprovado.");
+switch (sinal) {
+    case "vermelho":
+        console.log("Pare!");
+        break;
+
+    case "amarelo":
+        console.log("Atenção!");
+        break;
+    
+    case "verde":
+        console.log("Siga");
+        break;
+
 }
