@@ -1,16 +1,8 @@
-let sinal = "verde";
+let pizzas = ['calabresa', 'frango com catupiry', 'marguerita', 
+'chocolate', 'palmito'];
 
-switch (sinal) {
-    case "vermelho":
-        console.log("Pare!");
-        break;
+pizzas.push('cartola', 'doce de banana', 'portuguesa');
 
-    case "amarelo":
-        console.log("Atenção!");
-        break;
-    
-    case "verde":
-        console.log("Siga");
-        break;
-
+for (index = 0; index <pizzas.length; index += 1) {
+    console.log(pizzas[index])
 }
