@@ -1,8 +1,12 @@
-let pizzas = ['calabresa', 'frango com catupiry', 'marguerita', 
-'chocolate', 'palmito'];
 
-pizzas.push('cartola', 'doce de banana', 'portuguesa');
-
-for (index = 0; index <pizzas.length; index += 1) {
-    console.log(pizzas[index])
-}
+ let player = {
+    name: 'Marta',
+    lastName: 'Silva',
+    age: 34,
+    medals: {
+       golden: 2,
+       silver: 3
+    }  
+ };
+ console.log(player.name + ' ' + player.lastName + ' ' + 'completou' + ' ' + 
+ player.age + ' ' + 'anos.');
